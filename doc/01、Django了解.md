@@ -66,7 +66,6 @@ Django 的 MTV 模式本质上和 MVC 是一样的，也是为了各组件间保
 
 <img width="820" alt="截屏2022-05-12 16 59 50" src="https://user-images.githubusercontent.com/68216337/168033991-006dbab3-d4a6-4ca4-9008-817792bcb8df.png">
 
-__用户操作流程图：__ 
 __解析：__ 
 
 用户通过浏览器向我们的服务器发起一个请求（request），这个请求会去访问视图函数：
@@ -83,7 +82,9 @@ __解析：__
 
 ## 2.1 Django 安装
 
-**安装命令：**`pip3 install Django`
+```bash
+pip install Django
+```
 
 ## 2.2 创建项目
 
