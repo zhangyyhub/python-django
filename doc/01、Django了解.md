@@ -50,14 +50,6 @@ __MVC 优势：__
 
 *   ...
 
-__简易图：__ 
-
-![](image/image_fzJF6UPRM0.png)
-
-__用户操作流程图：__ 
-
-![](image/image_qj8KFWjhsB.png)
-
 ### 1.1.2 MVT 模型
 
 Django 的 MTV 模式本质上和 MVC 是一样的，也是为了各组件间保持松耦合关系，只是定义上有些许不同，Django 的 MTV 分别是指：
