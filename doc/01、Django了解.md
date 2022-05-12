@@ -36,6 +36,8 @@ MVC 以一种插件式的、松耦合的方式连接在一起。
 
 *   控制器（C）：负责转发请求，对请求进行处理。
 
+<img width="820" alt="截屏2022-05-11 17 42 22" src="https://user-images.githubusercontent.com/68216337/168033876-fdef33f4-9aa8-40c7-a034-158173bdeb5e.png">
+
 __MVC 优势：__ 
 
 *   低耦合
@@ -62,14 +64,9 @@ Django 的 MTV 模式本质上和 MVC 是一样的，也是为了各组件间保
 
 除了以上三层之外，还需要一个 URL 分发器，它的作用是将一个个 URL 的页面请求分发给不同的 View 处理，View 再调用相应的 Model 和 Template，MVT 的响应模式如下所示：
 
-__简易图：__ 
-
-![](image/image_TAWCQz3o_W.png)
+<img width="820" alt="截屏2022-05-12 16 59 50" src="https://user-images.githubusercontent.com/68216337/168033991-006dbab3-d4a6-4ca4-9008-817792bcb8df.png">
 
 __用户操作流程图：__ 
-
-![](image/image_yvnsArbJUe.png)
-
 __解析：__ 
 
 用户通过浏览器向我们的服务器发起一个请求（request），这个请求会去访问视图函数：
