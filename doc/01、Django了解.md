@@ -129,8 +129,11 @@ $ python manage.py runserver 0.0.0.0:8000
 
 在浏览器输入你服务器的ip（这里我们输入本机IP地址：127.0.0.1:8000）及端口号：
 
-![](image/image_8YrYqTXH0V.png)
+<img width="820" alt="截屏2022-05-11 17 42 22" src="https://user-images.githubusercontent.com/68216337/168035871-8066e6e0-230e-441d-8660-3d2d760a67e3.png">
 
 ### 2.3.2配置快速启动
 
-![](image/image_UIvuVw2LSs.png)
+![image_UIvuVw2LSs](https://user-images.githubusercontent.com/68216337/168036087-3562c6c1-e63b-43d8-b22d-d9908dc926a2.png)
+
+
+└── manage.py          # 一个实用的命令行工具，可让你以各种方式与该Django项目进行交互
