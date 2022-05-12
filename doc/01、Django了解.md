@@ -88,13 +88,13 @@ pip install Django
 
 ## 2.2 创建项目
 
-### 2.2.1使用Pycharm创建
+### 2.2.1 使用Pycharm创建
 
 ![image_GS3ybyajnW](https://user-images.githubusercontent.com/68216337/168034551-6f0c38d1-a091-453c-bb72-072bc5f1f390.png)
 
-### 2.2.2使用命令行创建
+### 2.2.2 使用命令行创建
 
-使用django-admin来创建demoDjango项目：
+使用 django-admin 来创建 demoDjango 项目：
 
 ```python
 django-admin startproject demoDjango
@@ -103,29 +103,27 @@ django-admin startproject demoDjango
 创建完成后我们可以查看下项目的目录结构：
 
 ```python
-(venv) edy@zhang Django % cd demoDjango 
-(venv) edy@zhang demoDjango % tree
+$ cd demoDjango 
+$ tree
 .
-├── demoDjango         # 项目的容器。
+├── demoDjango         # 项目的容器
 │   ├── __init__.py    # 一个空文件，告诉Python该目录是一个Python包。
 │   ├── asgi.py        # 一个 ASGI兼容的Web服务器的入口，以便运行你的项目。
-│   ├── settings.py    # 该Django项目的设置/配置。
-│   ├── urls.py        # 该Django项目的URL声明; 一份由Django驱动的网站"目录"。
-│   └── wsgi.py        # 一个WSGI兼容的Web服务器的入口，以便运行你的项目。
-└── manage.py          # 一个实用的命令行工具，可让你以各种方式与该Django项目进行交互。
+│   ├── settings.py    # 该Django项目的设置/配置
+│   ├── urls.py        # 该Django项目的URL声明; 一份由Django驱动的网站"目录"
+│   └── wsgi.py        # 一个WSGI兼容的Web服务器的入口，以便运行你的项目
+└── manage.py          # 一个实用的命令行工具，可让你以各种方式与该Django项目进行交互
 
 1 directory, 6 files
 
 ```
 
-## 2.3启动项目
+## 2.3 启动项目
 
-### 2.3.1终端启动
+### 2.3.1 终端启动
 
 ```python
-(venv) edy@zhang demoDjango % ls
-HelloWorld      manage.py
-(venv) edy@zhang demoDjango % python manage.py runserver 0.0.0.0:8000
+$ python manage.py runserver 0.0.0.0:8000
 
 ```
 
