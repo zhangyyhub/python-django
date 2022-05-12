@@ -136,4 +136,3 @@ $ python manage.py runserver 0.0.0.0:8000
 ![image_UIvuVw2LSs](https://user-images.githubusercontent.com/68216337/168036087-3562c6c1-e63b-43d8-b22d-d9908dc926a2.png)
 
 
-└── manage.py          # 一个实用的命令行工具，可让你以各种方式与该Django项目进行交互
