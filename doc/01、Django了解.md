@@ -90,7 +90,7 @@ pip install Django
 
 ### 2.2.1使用Pycharm创建
 
-![](image/image_GS3ybyajnW.png)
+![image_GS3ybyajnW](https://user-images.githubusercontent.com/68216337/168034551-6f0c38d1-a091-453c-bb72-072bc5f1f390.png)
 
 ### 2.2.2使用命令行创建
 
